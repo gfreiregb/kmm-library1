@@ -90,3 +90,11 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+/.idea/misc.xml
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.idea/
