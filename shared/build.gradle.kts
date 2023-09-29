@@ -5,7 +5,7 @@ plugins {
     id("maven-publish")
 }
 
-val libName = "KmmLibrary1"
+val libName = "kmm_library1"
 val libVersion = "1.0.0"
 group = "com.project.kmm_library1"
 
@@ -15,15 +15,15 @@ publishing {
     publications.withType<MavenPublication> {
         artifactId = libName
     }
-    /*repositories {
+    repositories {
         maven {
-            url = uri(System.getenv("MAVEN_WRITE_URL"))
+            url = uri("https://maven.pkg.github.com/gfreiregb/kmm-library1")
             credentials {
-                password = System.getenv("MAVEN_PWD")
-                username = System.getenv("MAVEN_USERNAME")
+                username = "gfreiregb"
+                password = "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"
             }
         }
-    }*/
+    }
 }
 
 kotlin {
