@@ -20,7 +20,7 @@ publishing {
             url = uri("https://maven.pkg.github.com/gfreiregb/kmm-library1")
             credentials {
                 username = "gfreiregb"
-                password = "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"
+                password = "CREATE_YOUR_PERSONAL_ACCESS_TOKEN"
             }
         }
     }
