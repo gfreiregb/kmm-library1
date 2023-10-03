@@ -1,6 +1,0 @@
-framework module KmmLibrary1 {
-  umbrella header "placeholder.h"
-
-  export *
-  module * { export * }
-}
