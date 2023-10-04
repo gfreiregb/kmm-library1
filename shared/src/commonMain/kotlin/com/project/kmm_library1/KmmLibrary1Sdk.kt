@@ -1,5 +1,5 @@
 package com.project.kmm_library1
 
 class KmmLibrary1Sdk {
-    fun getNumber5() = 5
+    fun getVersionNumber() = "1.3.0"
 }
